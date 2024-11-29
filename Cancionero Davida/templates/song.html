@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ song.titulo }} - {{ song.artista }}</title>
+    </head>
+    <body>
+        <header>
+            <h1>{{ song.titulo }}</h1>
+            <h2>{{ song.artista }}</h2>
+        </header>
+        <main>
+            <article>
+                <h3>Letras</h3>
+                <p>{{ song.letra }}</p>
+                <h3>Acordes</h3>
+                <pre>{{ song.acordes }}</pre>
+            </article>
+        </main>
+        <footer>
+            <p>&copy; 2024 Brotes de Olivo</p>
+        </footer>
+    </body>
+</html>
